@@ -55,8 +55,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'MANUEL RIVERA',
-  description: "Portfolio site built with Next.js by Manuel Rivera",
+  title: 'YURII KOMYSHAN',
+  description: "Portfolio site built with Next.js by Yurii Komyshan",
 };
 
 /**
