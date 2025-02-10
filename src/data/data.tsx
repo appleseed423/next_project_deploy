@@ -34,7 +34,7 @@ import porfolioImage17 from '../images/portfolio/17.png';
 import porfolioImage18 from '../images/portfolio/18.png';
 import porfolioImage19 from '../images/portfolio/19.png';
 import porfolioImage20 from '../images/portfolio/20.jpg';
-// import profilepic from '../images/profilepic1.jpg';
+import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -118,6 +118,7 @@ export const aboutData: About = {
     {label: '21000+', text: 'Development Hours', Icon: ClockIcon},
     {label: '750k+', text: 'Total Earning', Icon: CurrencyDollarIcon},
   ],
+  profileImageSrc: profilepic,
 };
 
 /**
@@ -129,7 +130,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Ukraine',
-        level: 10,
+        level: 4,
       },
       {
         name: 'English',
@@ -142,7 +143,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React/Next',
-        level: 8,
+        level: 10,
       },
       {
         name: 'JS/TS',
@@ -150,7 +151,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Three.js / Web3',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -159,15 +160,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Django',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Laravel',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -176,15 +177,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Mongo DB',
-        level: 9,
+        level: 10,
       },
       {
         name: 'MySQL',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Postgre SQL',
-        level: 7,
+        level: 9,
       },
     ],
   },

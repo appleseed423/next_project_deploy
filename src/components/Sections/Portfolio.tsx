@@ -10,7 +10,7 @@ import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
-  const [viewNum, setViewNum] = useState(4);
+  const [viewNum, setViewNum] = useState(8);
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
@@ -32,11 +32,15 @@ const Portfolio: FC = memo(() => {
             );
           })}
         </div>
-        <button
-          className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
-          onClick={() => setViewNum(viewNum + 4)}
-        > More
-        </button>
+        {
+          viewNum >= 20 ?
+            <></> :
+            <button
+              className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded"
+              onClick={() => setViewNum(viewNum + 4)}
+            > More
+            </button>
+        }
       </div>
     </Section>
   );
